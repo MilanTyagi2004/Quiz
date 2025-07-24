@@ -1,4 +1,4 @@
-package com.milan.quizApp.Quiz;
+package com.milan.quizApp.controller;
 
 
 import com.milan.quizApp.Entity.Difficulty;
@@ -6,7 +6,6 @@ import com.milan.quizApp.Entity.Questions;
 import com.milan.quizApp.Service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.RequestEntity;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
